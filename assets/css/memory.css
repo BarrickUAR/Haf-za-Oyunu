@@ -1,0 +1,207 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  background-color: #152938;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/*  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 150px 150px;
+
+}
+
+h4 {
+  color: #7191A5;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+
+}
+
+
+.gamestart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 654px;
+  height: 560px;
+  border-radius: 12px;
+}
+
+.toptext {
+  text-align: center;
+  color: white;
+
+}
+
+.themetext {
+  margin-bottom: 16px;
+}
+
+.selecttheme {
+  margin-bottom: 16px;
+}
+
+.theme button {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.24px;
+
+
+}
+
+.theme {
+  display: flex;
+  gap: 30px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.numbers button {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  gap: 500px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.btnnumbers {
+  color: white;
+  background-color: #304859;
+}
+
+.btnicons {
+  color: white;
+  background-color: #BCCED9;
+}
+
+.numbers {
+  display: flex;
+  gap: 30px;
+}
+
+.number button {
+  color: white;
+  background-color: #BCCED9;
+  font-family: Atkinson Hyperlegible;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.24px;
+
+
+}
+
+.number1 button {
+  color: white;
+  background-color: #304859;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.24px;
+
+}
+
+.grids {
+  display: flex;
+  gap: 30px;
+}
+
+.gridsizetext {
+  margin-bottom: 15px;
+}
+
+.grids button {
+  width: 230px;
+  margin-bottom: 33px;
+}
+
+.gridsize .x4 {
+
+  background-color: #304859;
+  color: white;
+  border-radius: 12px;
+  font-family: Atkinson Hyperlegible;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32.24px;
+  text-align: center;
+
+}
+
+.gridsize .x6 {
+  background-color: #BCCED9;
+  color: white;
+  border-radius: 12px;
+  font-family: Atkinson Hyperlegible;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32.24px;
+  text-align: center;
+
+}
+
+
+.btnstartgame {
+  background-color: #FDA214;
+  color: white;
+  width: 490px;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39.68px;
+
+
+}

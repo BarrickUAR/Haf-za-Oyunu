@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible";
+    background-color: #fff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+  margin-bottom: 105px;
+  padding-top: 65px;
+}
+
+.headergamename h2 {
+  color: #152938;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.6px;
+}
+
+
+
+.headerbuttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btnrestart {
+  background-color: #FDA214;
+  width: 127px;
+  height: 52px;
+  color: #fff;
+  border-radius: 20px;
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: center;
+
+
+}
+.btnnewgame {
+  background-color: #DFE7EC;
+  color: #304859;
+  width: 149px;
+  height: 52px;
+  border-radius: 20px;
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.8px;
+  text-align: center;
+
+
+
+
+}
+
+.headerlogo {
+  display: flex;
+
+}
+
+.btningame {
+  background-color: #304859;
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+
+}
+
+.gamebuttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 125px;
+}
+
+.footer {
+  display: flex;
+  gap: 30px;
+}
+
+.time {
+  border: 1px solid #DFE7EC;
+  background-color: #DFE7EC;
+  color: #7191A5;
+  padding: 25px;
+  width: 255px;
+  height: 72px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.32px;
+}
+
+.moves {
+  border: 1px solid #DFE7EC;
+  background-color: #DFE7EC;
+  color: #7191A5;
+  padding: 25px;
+  width: 255px;
+  height: 72px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.32px;
+}
